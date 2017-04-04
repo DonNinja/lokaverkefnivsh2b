@@ -16,7 +16,10 @@
 					<a href=""><li class="v4">UPPLÝSINGAR</li></a>
 				</ul>
 	</nav>
-	<div class=""></div>
+	<div class="kynna">
+		<h1>velkominn á blómabúð yngva og klaus</h1><br>
+		<h3>á þessari síðu getur þú keypt blóm eða og fræ</h3>
+	</div>
 
 
 	<?php require './includes/footer.php'; ?>

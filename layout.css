@@ -1,0 +1,12 @@
+body{
+	display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffff99;
+    max-width: 1080px;
+	justify-content: center;
+	background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
