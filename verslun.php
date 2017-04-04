@@ -16,7 +16,7 @@
 				<a href=""><li class="v4">UPPLÝSINGAR</li></a>
 			</ul>
 </nav>
-<div class=""></div>
+<div class="skoðað"></div>
 
 <footer><h5>tæknemi® and all related logos and other elements are trademarks of tæknemi hf.
 ©2016 tæknemi hf. All rights reserved. <a href=""> hafiðsamband</a></h5></footer>
