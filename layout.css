@@ -20,7 +20,7 @@ nav{
 	display: flex;
 	order: 1;
 	position: fixed;
-	background-color: rgba(221,121,9,0.85);
+	background-color: rgba(221,121,9,0.88);
 	color: white;
 	transition-duration: 1s;
 }
