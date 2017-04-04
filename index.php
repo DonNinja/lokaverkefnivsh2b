@@ -8,18 +8,18 @@
 	<link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 <body>
-<nav>
-	<ul>
-				<a href=""><li class="v1">FORSIÐA</li></a>
-				<a href=""><li class="v2">VERSLUN</li></a>
-				<a href=""><li class="v3">SIGN INN</li></a><!-- PHP if in session þá account info -->
-				<a href=""><li class="v4">UPPLÝSINGAR</li></a>
-			</ul>
-</nav>
-<div class=""></div>
+	<nav>
+		<ul>
+					<a href=""><li class="v1">FORSIÐA</li></a>
+					<a href=""><li class="v2">VERSLUN</li></a>
+					<?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {echo '<a href=""><li class="v3">ACCOUNT INFORMATION</li></a>'}; else {echo '<a href=""><li class="v3">SIGN INN</li></a>'} ?>
+					<a href=""><li class="v4">UPPLÝSINGAR</li></a>
+				</ul>
+	</nav>
+	<div class=""></div>
 
-<footer><h5>tæknemi® and all related logos and other elements are trademarks of tæknemi hf.
-©2016 tæknemi hf. All rights reserved. <a href=""> hafiðsamband</a></h5></footer>
+
+	<?php require './includes/footer.php'; ?>
 </body>
 </html>
 
