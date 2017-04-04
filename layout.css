@@ -6,7 +6,59 @@ body{
     background-color: #ffff99;
     max-width: 1080px;
 	justify-content: center;
-	background-image: url('background.jpg');
+	background-image: url('img/background.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
+/*##################nav#####################*/
+nav{
+	width: 100%;
+	top: -20em;
+	justify-content: flex-end;
+	overflow: hidden;
+	display: flex;
+	order: 1;
+	position: fixed;
+	background-color: rgba(221,121,9,0.85);
+	color: white;
+	transition-duration: 1s;
+}
+nav ul{
+	width: 100%;
+	display: flex;
+	list-style-type:none;
+	flex-flow: row wrap;
+}
+nav li{
+	width: 100%;
+	padding: 1em;
+	transition-duration: 1s;
+	border-bottom: 1px solid #0d0d0d;
+}
+nav li:hover{
+	background-color: white;
+ color: rgb(188,102,7);
+}
+nav a{
+	width: 100%;
+	color: white;
+	text-decoration: none;
+}
+#toggle{
+display: none;
+}
+label{
+	position: fixed;
+	display: flex;
+	order: 1;
+	color: white;
+	background-color: rgb(188,102,7);
+	width: 100%;
+	padding: 1em;
+	justify-content: flex-end;
+}
+input:checked ~ nav{
+	top: 3em;
+}
+/*##################nav#####################*/

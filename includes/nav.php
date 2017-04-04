@@ -1,3 +1,5 @@
+<input type="checkbox" id="toggle">
+    <label for="toggle">&#9776; menu .</label>
 	<nav>
 		<ul>
 					<a href=""><li class="v1">FORSIÐA</li></a>
