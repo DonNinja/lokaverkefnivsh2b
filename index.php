@@ -13,10 +13,10 @@
 
 	<?php require  './includes/nav.php'; ?>
 	<div class="kynna">
-		<br><h1>velkominn a bloma vef verslun yngva og klaus</h1><br>
-		<h3>a thessari sidu getur thu ablad upplysingar</h3><br>
+		<br><h1>Velkomin/n á blóma vefverslun Yngva og Klaus</h1><br>
+		<h3>á þessari síðu getur þú aflað þér upplýsingar</h3><br>
 		<img src="img/indexmid.jpg">
-		<h3>um blomin okkar eda og keypt blom eda og frae theira</h3><br>
+		<h3>um blómin okkar og keypt blóm og fræ þeirra</h3><br>
 	</div>
 
 	<?php require './includes/footer.php'; ?>
