@@ -13,6 +13,7 @@ body{
 }
 /*##################nav#####################*/
 nav{
+	opacity: 0;
 	width: 100%;
 	top: -20em;
 	justify-content: flex-end;
@@ -58,13 +59,17 @@ label{
 	width: 100%;
 	padding: 1em;
 	justify-content: flex-end;
+	top: 0;
 }
 input:checked ~ nav{
 	top: 3em;
+	opacity: 1;
+
 }
 
 .test{
 	opacity: 0;
+	top: -3em;
 }
 /*##################nav end#####################*/
 /*##################index#####################*/
@@ -102,6 +107,12 @@ input:checked ~ nav{
 		width: 100%;
 		height: auto;
 	}
+.UmOkkur{
+	width: 100%;
+	padding: 1em;
+	background-color: rgba(243, 221, 114,0.8); 
+	color: rgb(188,102,7);
+}
 /*##################uppls end#####################*/
 /*##################universal#####################*/
 button a{

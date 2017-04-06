@@ -29,7 +29,15 @@
 <div class="location">
 	<img src="img/tskoli.JPG">
 </div>
-<div class="Yngvi"></div>
+<div class="UmOkkur">
+	<h1>Ynvgi Leo Þráinsson</h1><br>
+	<h2>Lystu sjalfan tig herna</h2>
+</div>
+<div class="UmOkkur">
+	<h1>Hákon Klaus Haraldsson</h1><br>
+	<h2>Ég er fæddur 1999 í apríl og kem upprunalega úr Grindavík.</h2>
+	<h2>Ég er á tölvu braut í upplýsingatækniskólanum og áhugamálin mín eru bardagaíþróttir og tækni</h2>
+</div>
 
 <?php require './includes/footer.php'; ?>
 </body>
