@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="hopaverkefni">
 	<title>blómabúðin okkar</title>
+	<link rel="icon" href="http://www.gardheimar.is/img/logo.png">
 	<link rel="stylesheet" type="text/css" href="layout.css">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie+Flower" />
 </head>
@@ -12,10 +13,10 @@
 <?php require  './includes/nav.php'; ?>
 
 <div class="kynna">
-	<h1>Upplýsingar um okkur síðu</h1>
-	<h4>Þessi vefsíða er hópaverkefni hjá okkur hákon og Yngva.</h4>
+	<h1>Upplýsingar um okkar síðu</h1>
+	<h4>Þessi vefsíða er hópaverkefni hjá okkur Hákoni og Yngva.</h4>
 	<h3>Þessi síða er vefverslun þar sem þú getur keypt blóm og fræ</h3>
-	<h3>Þú getur filst með öllum breytingum á þessari síðu há</h3>
+	<h3>Þú getur fylgst með öllum breytingum á þessari síðu há</h3>
 	<button>
 	<a href="https://github.com/DonNinja/lokaverkefnivsh2b">github.com</a>
 	</button>
