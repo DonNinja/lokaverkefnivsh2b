@@ -1,3 +1,17 @@
+<?php
+		$servername = "tsuts.tskoli.is";
+		$username = "2605993489";
+		$password = "mypassword";
+		$dbname = "2605993489_lokaverkefnivsh2b";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+		    die("Það tókst ekki að connect-a við database-ið: " . $conn->connect_error);
+		}
+		session_start();
+		?> <!--Copy & Paste this on top of every single site-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,9 +28,8 @@
 	<?php require  './includes/nav.php'; ?>
 	<div class="kynna">
 		<br><h1>Velkomin/n á blóma vefverslun Yngva og Klaus</h1><br>
-		<h3>á þessari síðu getur þú aflað þér upplýsingar</h3><br>
+		<h3>Á þessari síðu getur þú aflað þér upplýsingar um blómin okkar og keypt blóm og fræ þeirra</h3><br>
 		<img src="img/indexmid.jpg">
-		<h3>um blómin okkar og keypt blóm og fræ þeirra</h3><br>
 	</div>
 
 	<?php require './includes/footer.php'; ?>
