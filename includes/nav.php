@@ -1,5 +1,5 @@
 <input type="checkbox" id="toggle">
-    <label for="toggle">&#9776; menu .</label>
+    <label id="myP" for="toggle">&#9776; menu .</label>
 	<nav>
 		<ul>
 					<a href="http://tsuts.tskoli.is/2t/0804993459/lokaverkefnivsh2b/"><li class="v1">FORSIÐA</li></a>
@@ -9,3 +9,14 @@
 					<?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {echo '<a href=""><li class="v5">SKRÁ ÚT</li></a>';}?>
 				</ul>
 	</nav>
+	<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("myP").className = "test";
+    } else {
+        document.getElementById("myP").className = "";
+    }
+}
+</script>

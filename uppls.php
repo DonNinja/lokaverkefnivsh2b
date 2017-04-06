@@ -29,6 +29,7 @@
 <div class="location">
 	<img src="img/tskoli.JPG">
 </div>
+<div class="Yngvi"></div>
 
 <?php require './includes/footer.php'; ?>
 </body>

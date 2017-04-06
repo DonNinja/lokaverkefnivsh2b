@@ -49,6 +49,7 @@ nav a{
 display: none;
 }
 label{
+	transition-duration: 0.5s;
 	position: fixed;
 	display: flex;
 	order: 1;
@@ -60,6 +61,10 @@ label{
 }
 input:checked ~ nav{
 	top: 3em;
+}
+
+.test{
+	opacity: 0;
 }
 /*##################nav end#####################*/
 /*##################index#####################*/
