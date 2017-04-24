@@ -1,3 +1,17 @@
+<?php
+		$servername = "tsuts.tskoli.is";
+		$username = "2605993489";
+		$password = "mypassword";
+		$dbname = "2605993489_lokaverkefnivsh2b";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+		    die("Það tókst ekki að connect-a við database-ið: " . $conn->connect_error);
+		}
+		session_start();
+		?> <!--Copy & Paste this on top of every single site-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,8 +44,9 @@
 	<img src="img/tskoli.JPG">
 </div>
 <div class="UmOkkur">
-	<h1>Ynvgi Leo Þráinsson</h1><br>
-	<h2>Lystu sjalfan tig herna</h2>
+	<h1>Yngvi Leó Þráinsson</h1><br>
+	<h2>Ég er fæddur 26. Maí 1999 á Húsavík, en ólst aðallega upp í Reykjavík</h2>
+	<h2>Ég er á tölvubraut í upplýsingatækniskólanum og áhugamálin mín eru tölvuleikir og tækniffræðsla</h2>
 </div>
 <div class="UmOkkur">
 	<h1>Hákon Klaus Haraldsson</h1><br>

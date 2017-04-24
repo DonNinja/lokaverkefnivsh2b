@@ -6,9 +6,9 @@ body{
     background-color: #ffff99;
     max-width: 1080px;
 	justify-content: center;
-	background-image: url('img/background.jpg');
+	background-image: url('img/background3.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 /*##################nav#####################*/
@@ -114,6 +114,19 @@ input:checked ~ nav{
 	color: rgb(188,102,7);
 }
 /*##################uppls end#####################*/
+/*##################form#####################*/
+form {
+	margin-top: 3em;
+	background-color: rgba(243, 221, 114,0.8); 
+	color: rgb(188,102,7);
+	text-align: center;
+	border: 1px solid rgb(188,102,7);
+	border-radius: 20px;
+	padding: .5em;
+	margin-top: 15%;
+	margin-bottom: 2em;
+}
+/*##################form end#####################*/
 /*##################universal#####################*/
 button a{
 	text-decoration: none;
