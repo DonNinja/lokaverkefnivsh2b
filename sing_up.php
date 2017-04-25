@@ -27,10 +27,10 @@
 	<form method="post" action="signup.php">
 		<p><h1>Skráðu inn nýjan notenda hér</h1></p>
 	    <p>
-	        <input type="text" name="username" id="username" placeholder="Notendanafn kemur hér" required>
+	        <input type="text" name="username" id="username" placeholder="Notendanafn" required>
 	    </p>
 	    <p>
-	        <input type="password" name="password" id="password" placeholder="Lykilorð kemur hér" required>
+	        <input type="password" name="password" id="password" placeholder="Lykilorð" required>
 	    </p>
 	    <p>
 	        <input type="text" name="heimilisfang" id="heimilisfang" placeholder="Heimilisfang kemur hér" required>

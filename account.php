@@ -24,10 +24,9 @@
 </head>
 <body>
 	<?php require  './includes/nav.php'; ?>
-
-<div class="kynna" style="padding-top: 5em;">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim id enim non tempor. Donec in interdum quam. Mauris viverra nunc quis nisi venenatis condimentum. Mauris egestas volutpat urna, vitae laoreet nulla fringilla sit amet. Cras consectetur, enim in rhoncus dignissim, nulla nunc condimentum ipsum, ut vestibulum enim nulla a orci. Aliquam iaculis lorem sit amet volutpat malesuada. Ut efficitur velit a dictum aliquet. Mauris tempus laoreet ante, sit amet tincidunt nisl sagittis nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras non metus quis magna fringilla tempus. Aenean ornare at magna at tempor.
-</div>
+	<div class="kynna">
+	<br><h1>Þetta er Upplýsinga síðan þín, [insert name here]. Þú getur líka kýkt á körfuna þína og keypt blómin sem þú villt.</h1><br>
+	</div>
 
 	<?php require './includes/footer.php'; ?>
 </body>
