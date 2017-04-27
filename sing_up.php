@@ -20,7 +20,7 @@
 	        <input type="password" name="password" id="password" placeholder="Lykilorð" required>
 	    </p>
 	    <p>
-	        <input type="text" name="heimilisfang" id="heimilisfang" placeholder="Heimilisfang kemur hér" required>
+	        <input type="text" name="heimilisfang" id="heimilisfang" placeholder="Heimilisfang kemur hér">
 	    </p>
 	    <p>
 	        <input name="login" type="submit" value="Skrá notenda">

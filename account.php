@@ -24,7 +24,21 @@
 <body>
 	<?php require  './includes/nav.php'; ?>
 	<div class="kynna">
-	<br><h1>Þetta er Upplýsinga síðan þín, <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {echo $_SESSION['username'];} else {echo "[Skráðu þig inn fyrst]";} ?>. Þú getur líka kíkt á körfuna þína og keypt blómin sem þú villt.</h1><br>
+	<br><h1>
+		<?php 
+			if (isset($_SESSION['loggedin'])) {
+				if ($_SESSION['username'] == 'yngvi' || $_SESSION['username'] == 'hakon') {
+					echo "Þú ert admin, þannig ég þarf ekki að segja þér neitt.";
+				}
+				else {
+					echo "Þetta er upplýsinga síðan þín, " . $_SESSION['username'] . " hér getur þú kíkt á upplýsingar um þig og séð körfuna þína.";
+				}
+			}
+			else {
+				echo "Þú hefur ekki skráð þig inn, þú þarft að gera það fyrst áður en þú kemur á þessa síðu";
+			}
+		?>
+	</h1><br>
 	</div>
 
 	<?php require './includes/footer.php'; ?>

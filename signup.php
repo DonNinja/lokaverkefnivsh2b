@@ -14,11 +14,13 @@
 		$nofn = $_REQUEST['username'];
 		$pass = $_REQUEST['password'];
 		$heimili = $_REQUEST['heimilisfang'];
+		if (!isset($heimili)) {
+			$heimili = "Ekki var valið heimilisfang";
+		}
 		$query = "SELECT 'username' FROM user WHERE nafn = '$nofn' AND password = '$pass'";
 		$result = mysqli_query($conn, $query) or die(mysqli_error($conn));
 
-		if (mysqli_num_rows($result) == 1)
-		{
+		if (mysqli_num_rows($result) == 1) {
 			echo '<script language="javascript">';
 			echo 'alert("Þetta nafn er þegar tekið")';
 			echo '</script>';

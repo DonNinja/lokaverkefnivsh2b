@@ -14,17 +14,15 @@
 
 	<?php require  './includes/nav.php'; ?>
 	<div class="kynna">
-		<?php
-	// Ath. hér eru harðkóðar lausnir notaðar til einföldunar sem sýnidæmi.
-
+	<?php
 	setcookie ('komin',"<br><h1>Velkomin/n til baka á blóma vefverslun Yngva og Klaus</h1><br>", time()+(60*60*24*7));
 	$var1 ="";	// breyta hefur default gildi
-	
-
-	if(isset($_COOKIE['komin'])){	// Notandi gæti hafið beytt eða eytt cookie gildum, eða útrunnið
+	if(isset($_COOKIE['komin']))
+	{	// Notandi gæti hafið beytt eða eytt cookie gildum, eða útrunnið
 		$var1 = $_COOKIE['komin']; 	// sækjum gildið úr cookie
 	}
-	else {
+	else 
+	{
 		$var1 = "<br><h1>Velkomin/n á blóma vefverslun Yngva og Klaus</h1><br>";
 	}
 	echo $var1; // ef það er unset þá kemur ekki melding, þar sem viðupphafstilltum $var1
