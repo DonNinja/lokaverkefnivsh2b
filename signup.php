@@ -24,7 +24,7 @@
 			echo '<script language="javascript">';
 			echo 'alert("Þetta nafn er þegar tekið")';
 			echo '</script>';
-			echo "<script>setTimeout(\"location.href = 'sign_up.php';\",1500);</script>";
+			echo "<script>setTimeout(\"location.href = 'sing_up.php';\",1500);</script>";
 		}
 
 		else {
