@@ -89,7 +89,19 @@ input:checked ~ nav{
 	}
 /*##################index end#####################*/
 /*##################verslun#####################*/
-
+.verslun{
+	width: 100%;
+	padding: 1.5em;
+	background-color: rgba(243, 221, 114,0.8); 
+	color: rgb(188,102,7);
+}
+/*.kynna var notað á uppls
+*/
+.verslun img{
+		width: 100%;
+		height: 250px;
+		padding-bottom: 1em;
+	}
 /*##################verslun end#####################*/
 /*##################account#####################*/
 
@@ -138,3 +150,24 @@ button a:hover{
 	color: rgb(243, 221, 114);
 }
 /*##################universal#####################*/
+@media screen and (min-width: 48em)  {
+	.UmOkkur{
+	width: 45.66%;
+
+}
+.verslun img{
+		width: 46.66%;
+		padding: 0.6em;
+	}
+
+/*.kynna var notað á uppls
+*/
+}
+@media screen and (min-width: 60em)  {
+	.UmOkkur{
+	width: 46.66%;
+}
+.location{
+	width: 46.66%;
+
+}
