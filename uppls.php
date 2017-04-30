@@ -1,3 +1,4 @@
+<?php include './includes/startsession.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +19,7 @@
 	<h3>Þessi síða er vefverslun þar sem þú getur keypt blóm og fræ</h3>
 	<h3>Þú getur fylgst með öllum breytingum á þessari síðu há</h3>
 	<button>
-	<a href="https://github.com/DonNinja/lokaverkefnivsh2b">github.com</a>
+	<a href="https://github.com/DonNinja/lokaverkefnivsh2b" target="_blank">github.com</a>
 	</button>
 	<h3>eða með því að koma á þessa síðu reglulega</h3>
 </div>
@@ -30,8 +31,9 @@
 	<img src="img/tskoli.JPG">
 </div>
 <div class="UmOkkur">
-	<h1>Ynvgi Leo Þráinsson</h1><br>
-	<h2>Lystu sjalfan tig herna</h2>
+	<h1>Yngvi Leó Þráinsson</h1><br>
+	<h2>Ég er fæddur 26. Maí 1999 á Húsavík, en ólst aðallega upp í Reykjavík</h2>
+	<h2>Ég er á tölvubraut í upplýsingatækniskólanum og áhugamálin mín eru tölvuleikir og tæknifræðsla</h2>
 </div>
 <div class="UmOkkur">
 	<h1>Hákon Klaus Haraldsson</h1><br>

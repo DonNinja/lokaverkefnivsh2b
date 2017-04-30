@@ -1,4 +1,4 @@
-<footer>
+<footer style="background-color: rgb(221,121,9); color: white; width: 100%; text-align: center;">
     <p><h5>tæknemi® and all related logos and other elements are trademarks of tæknemi hf.
 	©
     <?php

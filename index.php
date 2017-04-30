@@ -1,17 +1,4 @@
-<?php
-		$servername = "tsuts.tskoli.is";
-		$username = "2605993489";
-		$password = "mypassword";
-		$dbname = "2605993489_lokaverkefnivsh2b";
-
-		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
-		// Check connection
-		if ($conn->connect_error) {
-		    die("Það tókst ekki að connect-a við database-ið: " . $conn->connect_error);
-		}
-		session_start();
-		?> <!--Copy & Paste this on top of every single site-->
+<?php include './includes/startsession.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +14,19 @@
 
 	<?php require  './includes/nav.php'; ?>
 	<div class="kynna">
-		<br><h1>Velkomin/n á blóma vefverslun Yngva og Klaus</h1><br>
+	<?php
+	setcookie ('komin',"<br><h1>Velkomin/n til baka á blóma vefverslun Yngva og Klaus</h1><br>", time()+(60*60*24*7));
+	$var1 ="";	// breyta hefur default gildi
+	if(isset($_COOKIE['komin']))
+	{	// Notandi gæti hafið beytt eða eytt cookie gildum, eða útrunnið
+		$var1 = $_COOKIE['komin']; 	// sækjum gildið úr cookie
+	}
+	else 
+	{
+		$var1 = "<br><h1>Velkomin/n á blóma vefverslun Yngva og Klaus</h1><br>";
+	}
+	echo $var1; // ef það er unset þá kemur ekki melding, þar sem viðupphafstilltum $var1
+	?>
 		<h3>Á þessari síðu getur þú aflað þér upplýsingar um blómin okkar og keypt blóm og fræ þeirra</h3><br>
 		<img src="img/indexmid.jpg">
 	</div>
@@ -35,4 +34,3 @@
 	<?php require './includes/footer.php'; ?>
 </body>
 </html>
-
