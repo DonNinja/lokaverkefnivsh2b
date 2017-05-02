@@ -11,6 +11,7 @@
 </head>
 	<?php require  './includes/nav.php'; ?>
 <body>
+	<div class="kynna">
 	<form method="post" action="signin.php">
 		<p><h1>Skráðu þig inn hér</h1></p>
 	    <p>
@@ -23,8 +24,9 @@
 	        <input name="login" type="submit" value="Skrá inn">
 	    </p>
 	</form>
-	<!--<div class="fotur">-->
+	</div>
+	
 	<?php require './includes/footer.php'; ?>
-	<!--</div>-->
+	
 </body>
 </html>

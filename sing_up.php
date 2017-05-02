@@ -11,6 +11,7 @@
 </head>
 <body>
 	<?php require  './includes/nav.php'; ?>
+	<div class="kynna">
 	<form method="post" action="signup.php">
 		<p><h1>Skráðu inn nýjan notenda hér</h1></p>
 	    <p>
@@ -26,6 +27,7 @@
 	        <input name="login" type="submit" value="Skrá notenda">
 	    </p>
 	</form>
+	</div>
 	<!--<div class="fotur">-->
 	<?php require './includes/footer.php'; ?>
 	<!--</div>-->

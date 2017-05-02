@@ -16,7 +16,7 @@ body{
 nav{
 	opacity: 0;
 	width: 100%;
-	top: -20em;
+	top: -50em;
 	justify-content: flex-end;
 	overflow: hidden;
 	display: flex;
@@ -177,6 +177,19 @@ button a:hover{
 		padding: 0.6em;
 	}
 
+.blom img{
+		width: 60%;
+	}
+	.blom {
+		padding-top: 3em;
+		display: flex;
+	}
+	.blom h1{
+		height: 400px;
+	}
+	.blom button{
+		height: 100px;
+	}
 /*.kynna var notað á uppls
 */
 }
@@ -188,6 +201,10 @@ button a:hover{
 	width: 46.66%;
 
 }
+.verslun img{
+		width: 22.66%;
+		padding: 0.6em;
+	}
 
 
 /*##################universal#####################*/
