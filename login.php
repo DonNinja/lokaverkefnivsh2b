@@ -1,4 +1,5 @@
 <?php include './includes/startsession.php'; ?>
+<?php include './includes/random_image.php' ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +12,10 @@
 </head>
 	<?php require  './includes/nav.php'; ?>
 <body>
+<style type="text/css">
+    body{ background-image: url(<?= $selectedImage; ?>);
+    background-repeat: no-repeat; }
+</style>
 	<div class="kynna">
 	<form method="post" action="signin.php">
 		<p><h1>Skráðu þig inn hér</h1></p>

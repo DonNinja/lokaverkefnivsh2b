@@ -11,6 +11,7 @@
 	}
 	include_once 'signin.php';
 ?>
+<?php include './includes/random_image.php' ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,6 +23,10 @@
 	<link rel="stylesheet" type="text/css" href="layout.css">
 </head>
 <body>
+<style type="text/css">
+    body{ background-image: url(<?= $selectedImage; ?>);
+    background-repeat: no-repeat; }
+</style>
 	<?php require  './includes/nav.php'; ?>
 	<div class="kynna">
 	<br><h1>
