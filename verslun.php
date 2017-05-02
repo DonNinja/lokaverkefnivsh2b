@@ -33,14 +33,6 @@
 	<a href="blom.php?id=waterlily.jpg"><img src="img/blomin/waterlily.jpg"></a>
 
 </div>
-
-
-		<div class="kynna">
-			<h1>Hér getur þú skoðað og keypt blóm, smelltu á myndirnar fyrir fleiri upplýsingar um blómin.</h1>
-		</div>
-		<div class="skodad">
-			
-		</div>
 	<?php require './includes/footer.php'; ?>
 </body>
 </html>

@@ -31,12 +31,6 @@
 			echo '</script>';
 			echo "<script>setTimeout(\"location.href = 'account.php';\",1500);</script>";
 			$_SESSION['loggedin'] = true;
-			/*if ($username2 = 'yngvi' || $username2 = 'hakon') {
-				$_SESSION['admin'] = false;
-			}
-			else {
-				$_SESSION['admin'] = true;
-			}*/
 		}
 		else
 		{
