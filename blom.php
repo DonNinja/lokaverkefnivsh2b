@@ -1,3 +1,4 @@
+<?php include './includes/random_image.php' ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,18 +6,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="verkefni 4">
 	<meta name="author" content="Hakon klaus Haraldsson">
-	<title>Hakon klaus .H. verkefni 4</title>
+	<title>Verslun</title>
 	<link rel="stylesheet" type="text/css" href="layout.css">
 	
 </head>
 <body>
+<style type="text/css">
+    body{ background-image: url(<?= $selectedImage; ?>);
+    background-repeat: no-repeat; }
+</style>
 	<?php require  './includes/nav.php'; ?>
 <div class="kynna">
 	<div class="blom">
 <?php
 echo "<br>";
 $id = $_GET['id'];
-if ($id== "ros.jpg") {
+if ($id == "ros.jpg") {
 	echo "<br>";
     echo "<img src='img/blomin/ros.jpg'>";
     echo "<h1>þetta er rauð rós 10 stikki kosta 1599.Kr</h1>";
@@ -81,14 +86,13 @@ else {
     echo "how did you get here";
     echo "how did you get here";
     echo "how did you get here";
-
-    echo "how did you get here";
-    echo "how did you get here";
-    echo "how did you get here";echo "how did you get here";
     echo "how did you get here";
     echo "how did you get here";
     echo "how did you get here";
-
+    echo "how did you get here";
+    echo "how did you get here";
+    echo "how did you get here";
+    echo "how did you get here";
     echo "how did you get here";
 }
 

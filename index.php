@@ -1,4 +1,5 @@
 <?php include './includes/startsession.php'; ?>
+<?php include './includes/random_image.php' ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +12,10 @@
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie+Flower" />
 </head>
 <body>
-
+<style type="text/css">
+    body{ background-image: url(<?= $selectedImage; ?>);
+    background-repeat: no-repeat; }
+</style>
 	<?php require  './includes/nav.php'; ?>
 	<div class="kynna">
 	<?php
