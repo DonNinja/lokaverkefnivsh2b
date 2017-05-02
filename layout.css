@@ -71,9 +71,6 @@ input:checked ~ nav{
 	opacity: 0;
 	top: -3em;
 }
-@media all and (min-width: 960px) {
-	
-}
 /*##################nav end#####################*/
 /*##################index#####################*/
 .kynna{
@@ -168,6 +165,31 @@ button a:hover{
 
 /*##################universal#####################*/
 @media screen and (min-width: 48em)  {
+	label{display: none}
+
+nav{
+	background-color: rgba(221,121,9,0.95);
+	opacity: 1;
+	top: 0em;
+	justify-content: flex-start;
+}
+nav li{	
+padding-right: 0em;
+padding-left: 0em;
+flex-flow: row wrap;
+padding-top: 0.6em;
+padding-bottom: 0.6em;
+
+}
+.smábil{
+	padding-left: 1em;
+}
+nav ul{
+	padding-left: 0em;
+}
+nav a{
+	width: 20%;
+}
 	.UmOkkur{
 	width: 45.66%;
 
@@ -176,13 +198,12 @@ button a:hover{
 		width: 46.66%;
 		padding: 0.6em;
 	}
-
-.blom img{
-		width: 60%;
-	}
-	.blom {
+.blom {
 		padding-top: 3em;
 		display: flex;
+	}
+	.blom img{
+		width: 60%;
 	}
 	.blom h1{
 		height: 400px;

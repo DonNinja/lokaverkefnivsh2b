@@ -2,7 +2,7 @@
     <label id="myP" for="toggle">&#9776; menu</label>
 	<nav>
 		<ul>
-					<a href="index.php"><li class="v1">FORSIÐA</li></a>
+					<a class="smábil" href="index.php"><li class="v1">FORSIÐA</li></a>
 					<a href="verslun.php"><li class="v2">VERSLUN</li></a>
 
 					<?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {echo '<a href="account.php"><li class="v3">NOTENDA UPPLÝSINGAR & KARFA</li></a>';} else {echo '<a href="login.php"><li class="v3">INNSKRÁNING</li></a>';} ?>
