@@ -174,16 +174,14 @@ nav{
 	justify-content: flex-start;
 }
 nav li{	
-padding-right: 0em;
-padding-left: 0em;
-flex-flow: row wrap;
-padding-top: 0.6em;
-padding-bottom: 0.6em;
+	padding-right: 0em;
+	padding-left: 0em;
+	flex-flow: row wrap;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	text-align: center;
+}
 
-}
-.smábil{
-	padding-left: 1em;
-}
 nav ul{
 	padding-left: 0em;
 }

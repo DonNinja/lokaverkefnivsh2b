@@ -31,7 +31,6 @@
 	<a href="blom.php?id=lavender.jpg"><img src="img/blomin/lavender.jpg"></a>
 	<a href="blom.php?id=poppy.jpg"><img src="img/blomin/poppy.jpg"></a>
 	<a href="blom.php?id=waterlily.jpg"><img src="img/blomin/waterlily.jpg"></a>
-
 </div>
 	<?php require './includes/footer.php'; ?>
 </body>
