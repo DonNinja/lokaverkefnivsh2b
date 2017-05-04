@@ -162,7 +162,26 @@ button:hover{
 button a:hover{
 	color: rgb(243, 221, 114);
 }
-
+/*##################table#####################*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid rgb(221,121,9);
+    padding: 8px;
+    margin: 0;
+}
+th {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2em;
+}
+td {
+	text-align: left;
+}
+/*##################table end#####################*/
 /*##################universal#####################*/
 @media screen and (min-width: 48em)  {
 	label{display: none}
@@ -224,7 +243,5 @@ nav a{
 		width: 22.66%;
 		padding: 0.6em;
 	}
-
-
 /*##################universal#####################*/
 

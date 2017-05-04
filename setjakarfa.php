@@ -20,7 +20,7 @@
 			$result1 = $conn->query($usernam);
 			if ($result1->num_rows > 0) {
 				while ($row = $result1->fetch_assoc()) {
-					$usernam = $username2;
+					$usernam2 = mysqli_fetch_row($result1);
 				}
 			}
 			$blomin = "SELECT ID FROM blom WHERE ID = '$blom2'";
@@ -31,9 +31,9 @@
 				}
 			}
 
-			$query = "SELECT user_id, blom_id FROM panta INNER JOIN user ON user.id = panta.user_id INNER JOIN blom ON blom.ID = panta.blom_id AND user.nafn = $username2 WHERE user.ID = $usernam AND blom.ID = $blomin";
-			$result = mysqli_query($conn, $query) or die(mysqli_error($conn));
-			$query2 = "INSERT INTO panta(user_id, blom_id) VALUES (/*$usernam*/1, $blomin)";
+			//$query = "SELECT user_id, blom_id FROM panta INNER JOIN user ON user.id = panta.user_id INNER JOIN blom ON blom.ID = panta.blom_id AND user.nafn = $username2 WHERE user.ID = $usernam AND blom.ID = $blomin";
+			//$result = mysqli_query($conn, $query) or die(mysqli_error($conn));
+			$query2 = "INSERT INTO panta(user_id, blom_id) VALUES ($usernam2, $blom2)";
 			$result2 = mysqli_query($conn, $query2) or die(mysqli_error($conn));
 			echo '<script language="javascript">';
 			echo 'alert("Þetta hefur verið sett í körfuna")';

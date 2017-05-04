@@ -27,63 +27,63 @@ if ($id == "ros.jpg") {
     echo "<img src='img/blomin/ros.jpg'>";
     echo "<h1>þetta er rauð rós 1 stikki kostar 1400.Kr</h1>";
     echo "<form method=\"post\" action=\"setjakarfa.php\">";
-        echo "<button name=\"blom\" type=\"submit\" value=\"1\">kaupa</button>";
+    echo "<button name=\"blom\" type=\"submit\" value=\"1\">kaupa</button>";
     echo "</form>";
 } 
-elseif ($id== "lilja.jpg") {
+elseif ($id == "lilja.jpg") {
     echo "<br>";
     echo "<img src='img/blomin/lilja.jpg'>";
     echo "<h1>þetta er lilja 1 stikki kostar 300.Kr</h1>";
     echo "<form method=\"post\" action=\"setjakarfa.php\">";
-        echo "<button name=\"blom\" type=\"submit\" value=\"2\">kaupa</button>";
+    echo "<button name=\"blom\" type=\"submit\" value=\"2\">kaupa</button>";
     echo "</form>";
 } 
-elseif ($id== "hadegi.jpg") {
+elseif ($id == "hadegi.jpg") {
     echo "<br>";
     echo "<img src='img/blomin/hadegi.jpg'>";
     echo "<h1>þetta er hádegisblóm 1 stikki kostar 500.Kr</h1>";
     echo "<form method=\"post\" action=\"setjakarfa.php\">";
-        echo "<button name=\"blom\" type=\"submit\" value=\"3\">kaupa</button>";
+    echo "<button name=\"blom\" type=\"submit\" value=\"3\">kaupa</button>";
     echo "</form>";
 } 
-elseif ($id== "gleim.jpg") {
+elseif ($id == "gleim.jpg") {
     echo "<br>";
     echo "<img src='img/blomin/hadegi.jpg'>";
     echo "<h1>þetta er gleym mér ei 1 stikki kostar 800.Kr</h1>";
     echo "<form method=\"post\" action=\"setjakarfa.php\">";
-        echo "<button name=\"blom\" type=\"submit\" value=\"4\">kaupa</button>";
+    echo "<button name=\"blom\" type=\"submit\" value=\"4\">kaupa</button>";
     echo "</form>";
 } 
-elseif ($id== "daisy.jpg") {
+elseif ($id == "daisy.jpg") {
     echo "<br>";
     echo "<img src='img/blomin/daisy.jpg'>";
     echo "<h1>þetta er daisy 1 stikki kostar 500.Kr</h1>";
     echo "<form method=\"post\" action=\"setjakarfa.php\">";
-        echo "<button name=\"blom\" type=\"submit\" value=\"5\">kaupa</button>";
+    echo "<button name=\"blom\" type=\"submit\" value=\"5\">kaupa</button>";
     echo "</form>";
 } 
-elseif ($id== "lavender.jpg") {
+elseif ($id == "lavender.jpg") {
     echo "<br>";
     echo "<img src='img/blomin/lavender.jpg'>";
     echo "<h1>þetta er lavander 1 stikki kostar 900.Kr</h1>";
     echo "<form method=\"post\" action=\"setjakarfa.php\">";
-        echo "<button name=\"blom\" type=\"submit\" value=\"6\">kaupa</button>";
+    echo "<button name=\"blom\" type=\"submit\" value=\"6\">kaupa</button>";
     echo "</form>";
 }
-elseif ($id== "poppy.jpg") {
+elseif ($id == "poppy.jpg") {
     echo "<br>";
     echo "<img src='img/blomin/poppy.jpg'>";
     echo "<h1>þetta er poppy 1 stikki kostar 1000.Kr</h1>";
     echo "<form method=\"post\" action=\"setjakarfa.php\">";
-        echo "<button name=\"blom\" type=\"submit\" value=\"7\">kaupa</button>";
+    echo "<button name=\"blom\" type=\"submit\" value=\"7\">kaupa</button>";
     echo "</form>";;
 }
-elseif ($id== "waterlily.jpg") {
+elseif ($id == "waterlily.jpg") {
     echo "<br>";
     echo "<img src='img/blomin/waterlily.jpg'>";
     echo "<h1>þetta er vatnalilja 1 stikki kostar 1100.Kr</h1>";
     echo "<form method=\"post\" action=\"setjakarfa.php\">";
-        echo "<button name=\"blom\" type=\"submit\" value=\"8\">kaupa</button>";
+    echo "<button name=\"blom\" type=\"submit\" value=\"8\">kaupa</button>";
     echo "</form>";
 }
 else {

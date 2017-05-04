@@ -18,7 +18,7 @@
 </style>
 	<?php require  './includes/nav.php'; ?>
 <div class="kynna">
-	<br><h1>hér er vefverslunina</h1><br>
+	<br><h1>Hér er vefverslunin</h1><br>
 	<br><h2>síðastskoðað</h2><br>
 	<br><h1>ýttu á blómið sem þú hefur áhuga á</h1>
 </div>
